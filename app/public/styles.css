@@ -1,12 +1,31 @@
-.app {
-  background-color: green;
-  height: 50px;
-  border: 1px solid blue;
+* {
+  margin: 0;
+  padding: 0;
 }
-.bap {
-  background-color: red;
-  height: 25px;
+
+body {
+  background: #eee;
+  font-size: 16px;
+  font-family: helvetica;
+  box-sizing: content-box;
 }
+
+#app {
+  background: #fff;
+  width: 100%;
+}
+
+.container {
+  padding:20px;
+}
+
 .hidden {
   display: none;
+}
+
+/* clearfix */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }
